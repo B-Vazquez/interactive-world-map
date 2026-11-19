@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+.map svg {
+  background-color: lightcyan;
+  height: 100vh;
+  width: 65vw;
+}
+
+.map path {
+  fill: black;
+}
+
+.map path:hover {
+  fill: green;
+}

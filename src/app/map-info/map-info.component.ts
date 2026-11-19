@@ -2,6 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-map-info',
+  standalone: false,
   templateUrl: './map-info.component.html',
   styleUrl: './map-info.component.css'
 })

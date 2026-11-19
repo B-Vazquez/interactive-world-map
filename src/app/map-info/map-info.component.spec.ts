@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { beforeEach, describe, expect, it } from 'vitest';
+import { AppModule } from '../app.module';
 import { MapInfoComponent } from './map-info.component';
 
 describe('MapInfoComponent', () => {
@@ -8,7 +9,7 @@ describe('MapInfoComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [MapInfoComponent]
+      imports: [AppModule]
     })
     .compileComponents();
     
